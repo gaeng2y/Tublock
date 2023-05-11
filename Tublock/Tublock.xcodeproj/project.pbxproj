@@ -75,6 +75,7 @@
 		EFC1377929EEE87500689E9D /* CommonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonType.swift; sourceTree = "<group>"; };
 		EFC1377B29EEE88800689E9D /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		EFCB304729E2A033001FC492 /* SetMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetMessageView.swift; sourceTree = "<group>"; };
+		F003E7402A0D445B00F154AE /* Tublock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tublock.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +183,7 @@
 		8F515E9C29C35D370079D537 /* Tublock */ = {
 			isa = PBXGroup;
 			children = (
+				F003E7402A0D445B00F154AE /* Tublock.entitlements */,
 				8F03759929C40492005C0883 /* Sources */,
 				8F03759829C4048A005C0883 /* Resources */,
 				8F03759729C4047A005C0883 /* Application */,
@@ -591,6 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tublock/Tublock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62SDS28JUT;
@@ -625,6 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tublock/Tublock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62SDS28JUT;

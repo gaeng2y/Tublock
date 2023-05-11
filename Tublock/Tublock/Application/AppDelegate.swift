@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import FamilyControls
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let notificationManager = NotificationManager.shared
         Task {
-           try await notificationManager.requestAuthorization()
+            try await notificationManager.requestAuthorization()
+            try await AuthorizationCenter.shared.requestAuthorization(for: .individual)
         }
         
         return true
